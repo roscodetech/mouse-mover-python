@@ -1,4 +1,3 @@
-````markdown
 # Mouse Mover
 
 A lightweight Python script that periodically moves your mouse to simulate activity.  
@@ -71,4 +70,4 @@ mouse-mover-python/
 
 This project is licensed under the **MIT License** – free to use and modify.
 
-```
+
