@@ -66,6 +66,10 @@ mouse-mover-python/
 └── .gitignore          # Git ignore file
 ```
 
+## See also
+
+- **[roscodetech/claude-caffeinate](https://github.com/roscodetech/claude-caffeinate)** — same problem space, different mechanism. Uses the OS power-management API (`SetThreadExecutionState` on Windows, `caffeinate` on macOS, `systemd-inhibit` on Linux) instead of input simulation. Drops in as a `/caffeinate` slash command for [Claude Code](https://claude.com/claude-code). Prefer it when you can run a process that holds the wake-lock; mouse-mover is the universally-compatible fallback for restricted endpoints, locked-down corporate machines, or apps that explicitly check for input rather than power state.
+
 ## License
 
 This project is licensed under the **MIT License** – free to use and modify.
